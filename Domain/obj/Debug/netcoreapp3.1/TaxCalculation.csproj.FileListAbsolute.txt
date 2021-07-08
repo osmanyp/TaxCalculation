@@ -6,3 +6,4 @@ C:\Users\osmany.perez\Desktop\TaxCalculation\Domain\obj\Debug\netcoreapp3.1\TaxC
 C:\Users\osmany.perez\Desktop\TaxCalculation\Domain\obj\Debug\netcoreapp3.1\TaxCalculation.csproj.CoreCompileInputs.cache
 C:\Users\osmany.perez\Desktop\TaxCalculation\Domain\obj\Debug\netcoreapp3.1\TaxCalculation.dll
 C:\Users\osmany.perez\Desktop\TaxCalculation\Domain\obj\Debug\netcoreapp3.1\TaxCalculation.pdb
+C:\Users\osmany.perez\Desktop\TaxCalculation\Domain\obj\Debug\netcoreapp3.1\TaxCalculation.csproj.AssemblyReference.cache

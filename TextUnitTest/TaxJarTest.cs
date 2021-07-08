@@ -13,11 +13,19 @@ namespace TextUnitTest
 {
     public class TaxJarTest
     {
-        private static IConfiguration configuration = new ConfigurationBuilder()
+        private readonly IConfiguration m_configuration;
+        private readonly TaxJarProvider m_taxJarProvider;
+        private readonly TaxService m_taxService;
+
+        public TaxJarTest()
+        {
+            m_configuration = new ConfigurationBuilder()
             .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
             .Build();
 
-        private readonly TaxJarProvider m_taxJarProvider = new TaxJarProvider(configuration);
+            m_taxJarProvider = new TaxJarProvider(m_configuration);
+            m_taxService = new TaxService(m_taxJarProvider);
+        }
 
         [Fact]
         public async Task Valid_Get_Rates_For_Full_Location()
@@ -33,8 +41,7 @@ namespace TextUnitTest
             };
 
             //act
-            TaxService taxService = new TaxService(m_taxJarProvider);
-            TaxRatesResponse response = await taxService.GetTaxRatesByLocationAsync(taxRatesRequest);
+            TaxRatesResponse response = await m_taxService.GetTaxRatesByLocationAsync(taxRatesRequest);
 
             //assert
             Assert.NotNull(response.Rate);
@@ -46,7 +53,6 @@ namespace TextUnitTest
         [Fact]
         public void Not_Valid_GetRates_For_Bad_ZipCode()
         {
-            TaxService taxService = new TaxService(m_taxJarProvider);
             //arrage
             var taxRatesRequest = new TaxRatesRequest
             {
@@ -54,13 +60,12 @@ namespace TextUnitTest
             };
 
             //act
-            _ = Assert.ThrowsAsync<TaxJarException>(() => taxService.GetTaxRatesByLocationAsync(taxRatesRequest));
+            _ = Assert.ThrowsAsync<TaxJarException>(() => m_taxService.GetTaxRatesByLocationAsync(taxRatesRequest));
         }
 
         [Fact]
         public void Not_Valid_GetRates_For_Missing_ZipCode()
         {
-            TaxService taxService = new TaxService(m_taxJarProvider);
             //arrage
             var taxRatesRequest = new TaxRatesRequest
             {
@@ -68,14 +73,12 @@ namespace TextUnitTest
             };
 
             //act
-            _ = Assert.ThrowsAsync<ArgumentException>(() => taxService.GetTaxRatesByLocationAsync(taxRatesRequest));
+            _ = Assert.ThrowsAsync<ArgumentException>(() => m_taxService.GetTaxRatesByLocationAsync(taxRatesRequest));
         }
 
         [Fact]
         public async Task Valid_Calculate_Taxes_For_Order_To_Collect()
         {
-            TaxService taxService = new TaxService(m_taxJarProvider);
-
             //arrage
             var salesTaxOrderRequest = new SalesTaxOrderRequest()
             {
@@ -97,7 +100,7 @@ namespace TextUnitTest
             };
 
             //act
-            SalesTaxOrderResponse salesTaxOrderResponse = await taxService.CalculateTaxesForOrderAsync(salesTaxOrderRequest);
+            SalesTaxOrderResponse salesTaxOrderResponse = await m_taxService.CalculateTaxesForOrderAsync(salesTaxOrderRequest);
 
             //assert
             Assert.Equal(1.09f, salesTaxOrderResponse.Tax.AmountToCollect);

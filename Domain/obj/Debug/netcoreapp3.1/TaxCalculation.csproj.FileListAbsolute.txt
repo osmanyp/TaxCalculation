@@ -1,9 +1,0 @@
-C:\Users\osmany.perez\Desktop\TaxCalculation\Domain\bin\Debug\netcoreapp3.1\TaxCalculation.deps.json
-C:\Users\osmany.perez\Desktop\TaxCalculation\Domain\bin\Debug\netcoreapp3.1\TaxCalculation.dll
-C:\Users\osmany.perez\Desktop\TaxCalculation\Domain\bin\Debug\netcoreapp3.1\TaxCalculation.pdb
-C:\Users\osmany.perez\Desktop\TaxCalculation\Domain\obj\Debug\netcoreapp3.1\TaxCalculation.AssemblyInfoInputs.cache
-C:\Users\osmany.perez\Desktop\TaxCalculation\Domain\obj\Debug\netcoreapp3.1\TaxCalculation.AssemblyInfo.cs
-C:\Users\osmany.perez\Desktop\TaxCalculation\Domain\obj\Debug\netcoreapp3.1\TaxCalculation.csproj.CoreCompileInputs.cache
-C:\Users\osmany.perez\Desktop\TaxCalculation\Domain\obj\Debug\netcoreapp3.1\TaxCalculation.dll
-C:\Users\osmany.perez\Desktop\TaxCalculation\Domain\obj\Debug\netcoreapp3.1\TaxCalculation.pdb
-C:\Users\osmany.perez\Desktop\TaxCalculation\Domain\obj\Debug\netcoreapp3.1\TaxCalculation.csproj.AssemblyReference.cache

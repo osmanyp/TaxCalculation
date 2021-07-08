@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using TaxCalculation.Entities;
+using TaxCalculator.Entities;
 
-namespace TaxCalculation.Models
+namespace TaxCalculator.Models
 {
     public class TaxRatesResponse
     {

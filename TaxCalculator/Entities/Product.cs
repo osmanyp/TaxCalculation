@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace TaxCalculation.Entities
+namespace TaxCalculator.Entities
 {
     public class Product
     {

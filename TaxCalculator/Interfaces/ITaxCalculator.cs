@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
-using TaxCalculation.Models;
-using TaxCalculation.Entities;
+using TaxCalculator.Models;
+using TaxCalculator.Entities;
 
-namespace TaxCalculation.Interfaces
+namespace TaxCalculator.Interfaces
 {
     public interface ITaxCalculator
     {

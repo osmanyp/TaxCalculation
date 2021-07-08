@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace TaxCalculation.Models
+namespace TaxCalculator.Models
 {
     public class SaleTaxResponse
     {

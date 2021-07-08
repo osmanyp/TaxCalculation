@@ -1,13 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using TaxCalculation.Interfaces;
-using TaxCalculation.Entities;
-using TaxCalculation.Models;
+using TaxCalculator.Interfaces;
+using TaxCalculator.Entities;
+using TaxCalculator.Models;
 using System.Threading.Tasks;
 using System.Linq;
 
-namespace TaxCalculation.Services
+namespace TaxCalculator.Services
 {
     public class TaxService
     {

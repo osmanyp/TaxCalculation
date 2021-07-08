@@ -1,15 +1,15 @@
 using System;
 using Xunit;
-using TaxCalculation.Services;
+using TaxCalculator.Services;
 using TaxProviders.Providers;
 using System.Threading.Tasks;
-using TaxCalculation.Models;
+using TaxCalculator.Models;
 using System.Collections.Generic;
-using TaxCalculation.Entities;
+using TaxCalculator.Entities;
 using TaxProviders.Exceptions;
 using Microsoft.Extensions.Configuration;
 
-namespace TextUnitTest
+namespace TaxUnitTest
 {
     public class TaxJarTest
     {

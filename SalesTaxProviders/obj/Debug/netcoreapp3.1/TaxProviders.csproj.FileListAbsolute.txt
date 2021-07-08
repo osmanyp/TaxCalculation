@@ -1,0 +1,12 @@
+C:\Users\osmany.perez\Desktop\TaxCalculation\SalesTaxProviders\bin\Debug\netcoreapp3.1\TaxProviders.deps.json
+C:\Users\osmany.perez\Desktop\TaxCalculation\SalesTaxProviders\bin\Debug\netcoreapp3.1\TaxProviders.dll
+C:\Users\osmany.perez\Desktop\TaxCalculation\SalesTaxProviders\bin\Debug\netcoreapp3.1\TaxProviders.pdb
+C:\Users\osmany.perez\Desktop\TaxCalculation\SalesTaxProviders\bin\Debug\netcoreapp3.1\TaxCalculation.dll
+C:\Users\osmany.perez\Desktop\TaxCalculation\SalesTaxProviders\bin\Debug\netcoreapp3.1\TaxCalculation.pdb
+C:\Users\osmany.perez\Desktop\TaxCalculation\SalesTaxProviders\obj\Debug\netcoreapp3.1\TaxProviders.csproj.AssemblyReference.cache
+C:\Users\osmany.perez\Desktop\TaxCalculation\SalesTaxProviders\obj\Debug\netcoreapp3.1\TaxProviders.AssemblyInfoInputs.cache
+C:\Users\osmany.perez\Desktop\TaxCalculation\SalesTaxProviders\obj\Debug\netcoreapp3.1\TaxProviders.AssemblyInfo.cs
+C:\Users\osmany.perez\Desktop\TaxCalculation\SalesTaxProviders\obj\Debug\netcoreapp3.1\TaxProviders.csproj.CoreCompileInputs.cache
+C:\Users\osmany.perez\Desktop\TaxCalculation\SalesTaxProviders\obj\Debug\netcoreapp3.1\TaxProviders.csproj.CopyComplete
+C:\Users\osmany.perez\Desktop\TaxCalculation\SalesTaxProviders\obj\Debug\netcoreapp3.1\TaxProviders.dll
+C:\Users\osmany.perez\Desktop\TaxCalculation\SalesTaxProviders\obj\Debug\netcoreapp3.1\TaxProviders.pdb

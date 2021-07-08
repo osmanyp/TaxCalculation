@@ -1,0 +1,12 @@
+C:\Users\osmany.perez\Desktop\TaxCalculation\App\bin\Debug\netcoreapp3.1\App.exe
+C:\Users\osmany.perez\Desktop\TaxCalculation\App\bin\Debug\netcoreapp3.1\App.deps.json
+C:\Users\osmany.perez\Desktop\TaxCalculation\App\bin\Debug\netcoreapp3.1\App.runtimeconfig.json
+C:\Users\osmany.perez\Desktop\TaxCalculation\App\bin\Debug\netcoreapp3.1\App.runtimeconfig.dev.json
+C:\Users\osmany.perez\Desktop\TaxCalculation\App\bin\Debug\netcoreapp3.1\App.dll
+C:\Users\osmany.perez\Desktop\TaxCalculation\App\bin\Debug\netcoreapp3.1\App.pdb
+C:\Users\osmany.perez\Desktop\TaxCalculation\App\obj\Debug\netcoreapp3.1\App.AssemblyInfoInputs.cache
+C:\Users\osmany.perez\Desktop\TaxCalculation\App\obj\Debug\netcoreapp3.1\App.AssemblyInfo.cs
+C:\Users\osmany.perez\Desktop\TaxCalculation\App\obj\Debug\netcoreapp3.1\App.csproj.CoreCompileInputs.cache
+C:\Users\osmany.perez\Desktop\TaxCalculation\App\obj\Debug\netcoreapp3.1\App.dll
+C:\Users\osmany.perez\Desktop\TaxCalculation\App\obj\Debug\netcoreapp3.1\App.pdb
+C:\Users\osmany.perez\Desktop\TaxCalculation\App\obj\Debug\netcoreapp3.1\App.genruntimeconfig.cache
